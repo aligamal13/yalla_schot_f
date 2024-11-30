@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:yalla_kora/pages/splach/splash.dart';
 import 'package:yalla_kora/pages/tab_par_data1.dart';
@@ -11,6 +12,7 @@ import 'package:unity_ads_plugin/unity_ads_plugin.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  //FlutterNativeSplash.preserve(widgetsBinding: WidgetsFlutterBinding.ensureInitialized());
 
   UnityAds.init(
     gameId: '5740160',
